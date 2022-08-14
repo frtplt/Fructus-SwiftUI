@@ -18,7 +18,7 @@ struct FruitCardView: View {
     
     var body: some View {
         ZStack {
-            VStack(spacing: 20) {
+            VStack(spacing: 21) {
                 // FRUIT: IMAGE
                 Image(fruit.image)
                     .resizable()
